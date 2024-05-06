@@ -16,7 +16,8 @@
 
 Petri网用于描述和分析系统中的控制流和信息流，尤其是那些有异步和并发活动的系统。圆圈表示位置( place )，圆圈中有标识( token )表示条件( condition )满足。线段( bar)表示变迁( transition )。一个Petri net graph如下图所示
 
-![1650272662139](C:\Users\47597\Desktop\软件工程实验8\1650272662139.png)
+![1650272662139](https://github.com/memories295/Big_event/assets/127653138/85efcc15-6a68-45d7-834d-e1084aee204a)
+
 
 因为petri网中的弧是有方向的，所以petri网图是有向图。又因为petri网中的节点可以分为两个集合：place和transition，并且每条弧都是从一个集合中的元素连到另一个集合中的元素，所以petri网图是一个有向二分图。
 
@@ -72,7 +73,8 @@ $I(t4) = {p4}$       $O(t4) = {p2, p3}$
 
 Petri网适合对存在并发、并行的事件的离散事件系统进行建模。一般用位置( place )表示条件，用变迁表示事件。看下面的图，是一个简单计算机系统的例子：
 
-![1650273074549](C:\Users\47597\Desktop\软件工程实验8\1650273074549.png)
+
+![1650273074549](https://github.com/memories295/Big_event/assets/127653138/5a8afb53-4409-4d98-a20d-fe2374fe54ed)
 
 
 
@@ -149,17 +151,20 @@ Petri网在已知变化状态条件下研究输入和输出的网络结构问题
 
 ##### （1）状态图
 
-![人事管理状态图](C:\Users\47597\Desktop\软件工程实验8\人事管理状态图.png)
+![人事管理状态图](https://github.com/memories295/Big_event/assets/127653138/95e1aff0-711b-4a15-bb77-611c168bcb40)
+
 
 ##### （2）Petri网
 
 - **管理员修改员工信息的petri网**
 
-![人事管理管理员](C:\Users\47597\Desktop\软件工程实验8\人事管理管理员.png)
+![人事管理管理员](https://github.com/memories295/Big_event/assets/127653138/4fe57a45-3507-4a2d-862e-93400513cda1)
+
 
 - **员工核对个人信息的petri网**
 
-![人事管理员工](C:\Users\47597\Desktop\软件工程实验8\人事管理员工.png)
+![人事管理员工](https://github.com/memories295/Big_event/assets/127653138/459c5176-4118-4545-8fdf-b92f48649300)
+
 
 
 #### 3. 分工协作，用上面的工作补充完善SRS和所负责的项目。
